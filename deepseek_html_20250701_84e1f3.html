@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт-визитка</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">МойСайт</div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Привет, я <span>Иван Иванов</span></h1>
+            <p>Веб-разработчик и дизайнер</p>
+            <a href="#contacts" class="btn">Связаться со мной</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Обо мне</h2>
+            <div class="about-content">
+                <img src="https://via.placeholder.com/300" alt="Мое фото" class="profile-img">
+                <div class="about-text">
+                    <h3>Кто я</h3>
+                    <p>Я занимаюсь веб-разработкой уже 5 лет. Создаю современные и адаптивные сайты.</p>
+                    <div class="skills">
+                        <h3>Мои навыки</h3>
+                        <ul>
+                            <li><span>HTML/CSS</span> <div class="skill-bar"><div class="skill-level" style="width: 90%;"></div></div></li>
+                            <li><span>JavaScript</span> <div class="skill-bar"><div class="skill-level" style="width: 80%;"></div></div></li>
+                            <li><span>Дизайн</span> <div class="skill-bar"><div class="skill-level" style="width: 70%;"></div></div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Мои услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Веб-разработка</h3>
+                    <p>Создание сайтов любой сложности.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Дизайн</h3>
+                    <p>Уникальный дизайн для вашего проекта.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>SEO</h3>
+                    <p>Продвижение сайтов в поисковых системах.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Портфолио</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300" alt="Проект 1">
+                    <div class="portfolio-overlay">
+                        <h3>Сайт для ресторана</h3>
+                        <p>Лендинг с онлайн-меню</p>
+                        <a href="#" class="btn">Подробнее</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300" alt="Проект 2">
+                    <div class="portfolio-overlay">
+                        <h3>Интернет-магазин</h3>
+                        <p>Полный цикл разработки</p>
+                        <a href="#" class="btn">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <h2>Контакты</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Свяжитесь со мной</h3>
+                    <p><i class="fas fa-envelope"></i> example@mail.com</p>
+                    <p><i class="fas fa-phone"></i> +7 (123) 456-78-90</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Ваше имя" required>
+                    <input type="email" placeholder="Ваш email" required>
+                    <textarea placeholder="Ваше сообщение" required></textarea>
+                    <button type="submit" class="btn">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Мой сайт-визитка</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
